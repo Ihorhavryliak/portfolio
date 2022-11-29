@@ -1,0 +1,42 @@
+@use "../../styles/mixin";
+
+.section__contact {
+  @include mixin.grid-section;
+  padding: 3vh 0 7vh 0;
+  position: relative;
+  z-index: 3;
+  &__information {
+    @include mixin.h1-text;
+    .section__contact__name {
+      @include mixin.section-name;
+    }
+    .section__contact__surname {
+      @include mixin.section-surname;
+    }
+  }
+
+  &__networks {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    font-size: 29px;
+    .section__contact__link {
+      margin-right: 15px;
+      display: inline-block;
+      transition: transform 0.3s ease-out;
+      color: rgb(79, 152, 225) !important;
+      box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 2vh;
+      .section__contact__icon {
+        position: relative;
+        top: -2px;
+      }
+    }
+    .section__contact__link:hover {
+      transform: translateY(8px);
+      color: rgba(79, 152, 225, 0.651) !important;
+    }
+  }
+}

@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./styles/app.scss";
+import { Projects } from "./components/Projects/Projects";
+import { Skills } from "./components/Skills/Skills";
+import { Contact } from "./components/Contact/Contact";
+import { Footer } from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import { motion } from "framer-motion";
+import AboutMe from "./components/AboutMe/AboutMe";
 
-function App() {
+const App = () => {
+  const variant = {
+    visible: { opacity: 1, transition: { duration: 0.4 } },
+    hidden: { opacity: 0 },
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+        <Header />
+        <main>
+          <AboutMe />
+          <Skills />
+          <Projects />
+          <Contact />
+        </main>
+        <Footer />
+      </motion.div>
+    </>
   );
-}
+};
 
 export default App;
+{
+  /*  <Wrapper id="main" animationBg={true}> <Main language={language} /> </Wrapper> */
+}

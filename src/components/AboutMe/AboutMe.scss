@@ -1,0 +1,91 @@
+@use "../../styles/media.scss";
+
+.test{
+  width: 100%;
+  height: 500px;
+  background-color: antiquewhite;
+}
+.photo__tex {
+  position: absolute;
+  top: 33vh;
+  left: 6vw;
+  z-index: 2;
+
+  @media (max-width: media.$mobileLess) {
+    top: 39vh;
+    left: 15vw;
+  }
+  @media (max-width: media.$mobile) {
+    top: 38vh;
+  }
+  .text__block {
+    text-align: left;
+    &__name {
+      font-size: 80px;
+      font-family: ui-sans-serif;
+      line-height: 80px;
+
+      @media (max-width: media.$mobileLess) {
+        font-size: 40px;
+        line-height: 40px;
+      }
+      @media (max-width: media.$mobile) {
+        font-size: 42px;
+        line-height: 42px;
+      }
+    }
+    &__surname {
+      @extend .text__block__name;
+      font-weight: bold;
+    }
+    &__position {
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 10px;
+      @media (max-width: media.$mobileLess) {
+        font-size: 18px;
+      }
+      @media (max-width: media.$mobile) {
+        font-size: 20px;
+      }
+    }
+    &__button {
+      &__icon {
+        position: relative;
+        top: -3px;
+      }
+    }
+  }
+}
+
+.photo__section {
+  height: 100vh;
+  background: #eee;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  @media (max-width: media.$mobile) {
+    grid-template-columns: none;
+  }
+  @media (max-width: media.$mobileLess) {
+    grid-template-columns: none;
+  }
+  .img__photo {
+    display: grid;
+    align-content: space-around;
+    justify-content: space-around;
+    background: rgba(108, 177, 214, 0.247);
+    padding: 15%;
+    grid-column: 2;
+    z-index: 1;
+    @media (max-width: media.$mobile) {
+      padding: 0%;
+    }
+    @media (max-width: media.$mobileLess) {
+      padding: 0%;
+    }
+    .my__img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+  }
+}
