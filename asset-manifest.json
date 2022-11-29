@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.02eb08d7.css",
+    "main.js": "/react-gh-pages/static/js/main.ece6070d.js",
+    "static/media/Screenshot_1.png": "/react-gh-pages/static/media/Screenshot_1.657a2525155c63616186.png",
+    "static/media/Screenshot_18.png": "/react-gh-pages/static/media/Screenshot_18.b0d101db9c550aaf400d.png",
+    "static/media/Screenshot_14.png": "/react-gh-pages/static/media/Screenshot_14.cbaf9860b3a6acfa2265.png",
+    "static/media/Screenshot_15.png": "/react-gh-pages/static/media/Screenshot_15.18f08f13d5183cc5cba6.png",
+    "static/media/Screenshot_10.png": "/react-gh-pages/static/media/Screenshot_10.ec4053c0597cbc3bf7ba.png",
+    "static/media/Screenshot_2.png": "/react-gh-pages/static/media/Screenshot_2.feb48fc5a2c79ae3c79c.png",
+    "static/media/CV_Ihor_Havryliak.pdf": "/react-gh-pages/static/media/CV_Ihor_Havryliak.21acc61c0b185dea1fa7.pdf",
+    "static/media/i.jpg": "/react-gh-pages/static/media/i.6a423f5db811e1bc7a49.jpg",
+    "static/media/Screenshot_11.png": "/react-gh-pages/static/media/Screenshot_11.4ae6b8c0605c87d79a26.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.02eb08d7.css.map": "/react-gh-pages/static/css/main.02eb08d7.css.map",
+    "main.ece6070d.js.map": "/react-gh-pages/static/js/main.ece6070d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02eb08d7.css",
+    "static/js/main.ece6070d.js"
+  ]
+}
