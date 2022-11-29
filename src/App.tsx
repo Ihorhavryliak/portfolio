@@ -8,10 +8,10 @@ import { motion } from "framer-motion";
 import AboutMe from "./components/AboutMe/AboutMe";
 
 const App = () => {
-  const variant = {
+/*   const variant = {
     visible: { opacity: 1, transition: { duration: 0.4 } },
     hidden: { opacity: 0 },
-  };
+  }; */
 
   return (
     <>

@@ -28,7 +28,7 @@ export const Projects = () => {
                 alt="projectOne"
               />
               <a
-                href="https://ihorhavryliak.github.io/reaxt-social-netwoeking/"
+                href={data.href}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button__view btn btn-info"

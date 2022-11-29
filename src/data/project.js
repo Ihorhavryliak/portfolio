@@ -3,12 +3,16 @@
 import projectOne from "../assets/images/Screenshot_10.png";
 import projectTwo from "../assets/images/Screenshot_11.png";
 import portfolio from "../assets/images/Screenshot_14.png";
-import originTuned from "../assets/images/Screenshot_15.png";
+import tribute from "../assets/images/Screenshot_15.png";
+import originTuned from "../assets/images/Screenshot_18.png";
+import survey from "../assets/images/Screenshot_1.png";
+import documentation from "../assets/images/Screenshot_2.png";
+
 export const projectsInformation = [
   {
     name : 'Portfolio',
     description: ` React, CSS, HTML, Bootstrap, SASS.`,
-    href: `https://ihorhavryliak.github.io/recruiting-search/`,
+    href: `https://ihorhavryliak.github.io/portfolio/`,
     img: portfolio
   },
   {
@@ -25,9 +29,21 @@ export const projectsInformation = [
   img: projectTwo
 },
 {
-  name : 'Origin Tuned',
+  name : 'Origin Trombones',
   description: `CSS, HTML`,
   href: `https://benevolent-empanada-759732.netlify.app/`,
-  img: originTuned
+  img: tribute
+},
+{
+  name : 'Tribute Page',
+  description: `CSS, HTML`,
+  href: `https://chipper-bonbon-215bcb.netlify.app/`,
+  img:  originTuned
+},
+{
+  name : 'Technical Documentation Page',
+  description: `CSS, HTML`,
+  href: `https://meek-cendol-d76855.netlify.app/`,
+  img: documentation
 },
 ]
