@@ -6,25 +6,45 @@ import { Footer } from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import { motion } from "framer-motion";
 import AboutMe from "./components/AboutMe/AboutMe";
+import { useEffect, useState } from "react";
+import { AnimationLoad } from "./utils/AnimationLoad/AnimationLoad";
 
 const App = () => {
-/*   const variant = {
+  /*   const variant = {
     visible: { opacity: 1, transition: { duration: 0.4 } },
     hidden: { opacity: 0 },
   }; */
+  const [play, setPlay] = useState(false);
+  console.log(play);
+  useEffect(() => {
+    const onPage = () => {
+      setPlay(true);
+    };
+    if (document.readyState === "complete") {
+      onPage();
+    } else {
+      window.addEventListener("load", onPage);
+    }
+    return () => window.removeEventListener("load", onPage);
+  }, []);
 
   return (
     <>
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <Header />
-        <main>
-          <AboutMe />
-          <Skills />
-          <Projects />
-          <Contact />
-        </main>
-        <Footer />
-      </motion.div>
+      <Header />
+      {!play ? (
+        <AnimationLoad />
+      ) : (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+          <main>
+            <AboutMe />
+            <Skills />
+            <Projects />
+            <Contact />
+          </main>
+
+          <Footer />
+        </motion.div>
+      )}
     </>
   );
 };

@@ -18,9 +18,9 @@ export const Projects = () => {
 
         <div className="project__section__my__project">
 
-        { projectsInformation.map(data => {
+        { projectsInformation.map((data, i) => {
           return (
-            <div className="project__section__wrap__projects">
+            <div key={i + data.name} className="project__section__wrap__projects">
             <div className="project__photo">
               <img
                 className="project__photo__img"
