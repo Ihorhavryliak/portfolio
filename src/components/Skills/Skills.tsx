@@ -1,10 +1,9 @@
 import React from "react";
-
 import "./Skills.scss";
 import { SectionAnimation } from "../../utils/SectionAnimation";
 import { skills } from "../../data/skills";
 
-export const Skills = () => {
+export const Skills = React.memo(() => {
   return (
     <section className="skills__section" id="skills">
       <SectionAnimation>
@@ -26,4 +25,4 @@ export const Skills = () => {
       </SectionAnimation>
     </section>
   );
-};
+});

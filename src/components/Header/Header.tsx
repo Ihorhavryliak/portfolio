@@ -1,4 +1,4 @@
-import { motion, useCycle, Variants } from "framer-motion";
+import React from "react";
 import { useState } from "react";
 import { BsArrowUpCircle } from "react-icons/bs";
 import { useInView } from "react-intersection-observer";
@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 import { AnimationCircle } from "../../utils/Animation/AnimationCircle";
 import "./Header.scss";
 
-const side: Variants = {
+/* const side: Variants = {
   open: {
     maxHeight: 500,
     opacity: 0,
@@ -25,9 +25,9 @@ const side: Variants = {
       opacity: 1,
     },
   },
-};
+}; */
 
-const Header = () => {
+const Header = React.memo(() => {
   //delete button top
   const [topView, isTopView] = useInView();
   //open close menu
@@ -124,6 +124,6 @@ const Header = () => {
       </div>
     </header>
   );
-};
+});
 
 export default Header;

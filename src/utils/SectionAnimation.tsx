@@ -4,15 +4,18 @@ import { useInView } from "react-intersection-observer";
 
 type AnimationType = {
   children: ReactNode;
-  variant?: any
+  variant?: any;
 };
 
 const boxVariant = {
-  visible: { opacity: 1, x: 0, transition: { duration: 1} },
+  visible: { opacity: 1, x: 0, transition: { duration: 1 } },
   hidden: { opacity: 0, x: -250 },
 };
 
-export const SectionAnimation = ({ children, variant = boxVariant}: AnimationType) => {
+export const SectionAnimation = ({
+  children,
+  variant = boxVariant,
+}: AnimationType) => {
   const control = useAnimation();
   const [skillsView, isSkillsView] = useInView();
 

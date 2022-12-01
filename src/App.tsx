@@ -10,12 +10,10 @@ import { useEffect, useState } from "react";
 import { AnimationLoad } from "./utils/AnimationLoad/AnimationLoad";
 
 const App = () => {
-  /*   const variant = {
-    visible: { opacity: 1, transition: { duration: 0.4 } },
-    hidden: { opacity: 0 },
-  }; */
+
+  //is Page Load
   const [play, setPlay] = useState(false);
-  console.log(play);
+
   useEffect(() => {
     const onPage = () => {
       setPlay(true);
@@ -41,7 +39,6 @@ const App = () => {
             <Projects />
             <Contact />
           </main>
-
           <Footer />
         </motion.div>
       )}
@@ -50,6 +47,4 @@ const App = () => {
 };
 
 export default App;
-{
-  /*  <Wrapper id="main" animationBg={true}> <Main language={language} /> </Wrapper> */
-}
+
