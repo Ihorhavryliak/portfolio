@@ -13,8 +13,7 @@ import shop from "../assets/images/Screenshot_2shop.png";
 export const projectsInformation = [
   {
     name : 'ShopStore',
-    description: `React, Redux, API requests, TypeScript, Axios, Thunks, CSS, HTML,
-    and more.`,
+    description: `React, Redux, API requests, TypeScript, Axios, Thunks, CSS, HTML, Bootstrap SASS.`,
     href: `https://ihorhavryliak.github.io/shop/`,
     img: shop
   },

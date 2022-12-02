@@ -6,7 +6,7 @@ import "./Project.scss";
 
 export const Projects = React.memo(() => {
   const projectsVariant = {
-    visible: { opacity: 1, x: 0, transition: { duration: 1 } },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.4 } },
     hidden: { opacity: 0, x: 250 },
   };
 
