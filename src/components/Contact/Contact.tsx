@@ -5,11 +5,10 @@ import { BsTelegram } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import "./Contact.scss";
 import { SectionAnimation } from "../../utils/SectionAnimation";
-import { AnimationContact } from "../../utils/Animation/Contact/AnimationContact";
 
-export const Contact = () => {
+export const Contact = React.memo(() => {
   const boxVariant = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } },
     hidden: { opacity: 0, scale: 0 },
   };
 
@@ -58,4 +57,4 @@ export const Contact = () => {
       </SectionAnimation>
     </section>
   );
-};
+});
