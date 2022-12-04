@@ -27,7 +27,7 @@ export const projectsInformation = [
   name : 'Social Network',
   description: `React, Redux, API requests, TypeScript, Axios, Thunks, CSS, HTML,
   and more.`,
-  href: `https://ihorhavryliak.github.io/reaxt-social-netwoeking/`,
+  href: `https://ihorhavryliak.github.io/react-social-networking/`,
   img: projectOne
 },
 {
