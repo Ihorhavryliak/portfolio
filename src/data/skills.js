@@ -5,7 +5,8 @@ import { DiJavascript1 } from "react-icons/di";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { TbBrandBootstrap, TbBrandSass } from "react-icons/tb";
 import { FiGithub } from "react-icons/fi";
-import { FaWpforms } from "react-icons/fa";
+import { FaDatabase, FaNodeJs, FaWpforms } from "react-icons/fa";
+import { BsBoxArrowInRight } from "react-icons/bs";
 
 
 export const skills = [{
@@ -36,7 +37,7 @@ export const skills = [{
   icon:    <SiTypescript className="block__icon" />,
 },
 {
-  name: 'Rest API',
+  name: 'Rest API / Swagger',
   description: `   Developed data access layer (DAL) for interaction with RESTful web
   services by using Axios library.`,
   icon:     <CiServer className="block__icon" />,
@@ -53,18 +54,35 @@ export const skills = [{
 },
 {
   name: 'Bootstrap',
-  description: `Used Bootstrap for app development with styles and design out of a
+  description: `I was using Bootstrap for app development with styles and design out of a
   box.`,
   icon:    <TbBrandBootstrap className="block__icon" />,
 },
 {
   name: 'Git',
-  description: `Used Git to control program version.`,
+  description: `I was using Git to control program version.`,
   icon:  <FiGithub className="block__icon" />,
 },
 {
   name: 'Formik',
-  description: `Used Formik for created different forms.`,
+  description: `I was using Formik for created different forms.`,
   icon:  <FaWpforms className="block__icon" />,
 },
+{
+  name: 'Node.js / Express / Nest.js',
+  description: `I was creating  servers.`,
+  icon:  <FaNodeJs className="block__icon" />,
+},
+{
+  name: 'MongoDB / SQL / PostgreSQL',
+  description: `I was creating databases.`,
+  icon:  <FaDatabase className="block__icon" />,
+},
+{
+  name: 'Google OAuth 2.0',
+  description: `I was doing Auth with Google API.`,
+  icon:  <BsBoxArrowInRight className="block__icon" />,
+},
+
+
 ]

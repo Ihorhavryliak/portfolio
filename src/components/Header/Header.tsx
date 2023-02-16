@@ -97,7 +97,7 @@ const Header = React.memo(() => {
                 <Link
                   className="nav-link"
                   activeClass="active"
-                  offset={-56}
+                  offset={-54}
                   spy={true}
                   smooth={true}
                   duration={10}

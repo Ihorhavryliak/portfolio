@@ -5,12 +5,21 @@ import projectTwo from "../assets/images/Screenshot_11.png";
 import portfolio from "../assets/images/Screenshot_14.png";
 import tribute from "../assets/images/Screenshot_15.png";
 import originTuned from "../assets/images/Screenshot_18.png";
-import survey from "../assets/images/Screenshot_1.png";
+import oneImg from "../assets/images/Screenshot_19.png";
+import twoImg from "../assets/images/Screenshot_20.png";
+import treeImg from "../assets/images/21.png";
 import documentation from "../assets/images/Screenshot_2.png";
 import shop from "../assets/images/Screenshot_2shop.png";
 
 
 export const projectsInformation = [
+  {
+    name : 'Dowok',
+    description: `React, Redux, TypeScript, JavaScript, REST API, Thunk, CSS, HTML5,
+    GitHub, Socket.io, JWT, React transition group.`,
+    href: `https://dowork.com.ua/`,
+    img: treeImg
+  },
   {
     name : 'ShopStore',
     description: `React, Redux, API requests, TypeScript, Axios, Thunks, CSS, HTML, Bootstrap SASS.`,
@@ -53,5 +62,19 @@ export const projectsInformation = [
   description: `CSS, HTML`,
   href: `https://meek-cendol-d76855.netlify.app/`,
   img: documentation
+},
+{
+  name : 'Reach out to us! (Front-end)',
+  description: `React, Redux, TypeScript, JavaScript, REST API, Thunk, CSS, HTML5,
+  GitHub / Node.js, PostgreSQL, Nest.js, Swagger`,
+  href: `https://feedback-form-internship.onrender.com/`,
+  img: oneImg
+},
+{
+  name : 'Reach out to us! (Back-end)',
+  description: `React, Redux, TypeScript, JavaScript, REST API, Thunk, CSS, HTML5,
+  GitHub / Node.js, PostgreSQL, Nest.js, Swagger`,
+  href: `https://internship-z3os.onrender.com/api/docs/#/`,
+  img: twoImg
 },
 ]
