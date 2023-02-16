@@ -2,15 +2,15 @@ import { HiOutlineDocumentDownload } from "react-icons/hi";
 import myPhoto from "../../assets/images/i.jpg";
 import CV from "../../assets/CV_Ihor_Havryliak.pdf";
 import "./AboutMe.scss";
+import React from "react";
 
-const AboutMe = () => {
+const AboutMe = React.memo(() => {
   return (
     <section id="home">
       <div className="photo__tex">
         <div className="text__block">
           <div className="text__block__name">Hello I am </div>
-
-          <div className="text__block__surname">Ihor Havriliak</div>
+          <div className="text__block__surname">Ihor Havryliak</div>
           <div className="text__block__position">Front-End Developer</div>
           <a
             href={CV}
@@ -29,5 +29,8 @@ const AboutMe = () => {
       </div>
     </section>
   );
-};
+});
+
 export default AboutMe;
+
+

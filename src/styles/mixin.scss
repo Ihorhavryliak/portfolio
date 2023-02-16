@@ -1,4 +1,4 @@
-@use './media';
+@use "./media";
 /* @mixin padding($pTop: 25px, $tLeft: 35px) {
   padding: $pTop $tLeft;
 }
@@ -12,7 +12,7 @@
     padding: 6vh 0;
   }
 }
-@mixin h1-text ($textAlign: center, $fontFamily: Monaco){
+@mixin h1-text($textAlign: center, $fontFamily: Monaco) {
   text-align: $textAlign;
   font-family: $fontFamily;
 }
@@ -43,5 +43,4 @@
   margin-left: 7%;
   margin-right: 7%;
   grid-gap: 20px;
-
 }
