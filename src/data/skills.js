@@ -7,7 +7,10 @@ import { TbBrandBootstrap, TbBrandSass } from "react-icons/tb";
 import { FiGithub } from "react-icons/fi";
 import { FaDatabase, FaNodeJs, FaWpforms } from "react-icons/fa";
 import { BsBoxArrowInRight } from "react-icons/bs";
-
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiMaterialdesign } from "react-icons/si";
+import { BsBrush } from "react-icons/bs";
+import { MdOutlineFormatListBulleted } from "react-icons/md";
 
 export const skills = [{
   name: 'React',
@@ -16,6 +19,11 @@ export const skills = [{
   HOC to reuse component logic and optimize performance with
   React.memo.`,
   icon: <IoLogoReact className="block__icon" />,
+},
+{
+  name: 'Next.js',
+  description: `I was created the site used the Next.js`,
+  icon:  <TbBrandNextjs className="block__icon" />,
 },
 {
   name: 'Redux',
@@ -84,5 +92,19 @@ export const skills = [{
   icon:  <BsBoxArrowInRight className="block__icon" />,
 },
 
-
+{
+  name: 'Taiwing',
+  description: `I was created the site used the Taiwing`,
+  icon:  <SiMaterialdesign  className="block__icon" />,
+},
+{
+  name: 'MUI',
+  description: `I was created the site used the MUI`,
+  icon:  <BsBrush  className="block__icon" />,
+},
+{
+  name: 'React-hook-form',
+  description: `I was created forms.`,
+  icon:  <MdOutlineFormatListBulleted className="block__icon" />,
+},
 ]

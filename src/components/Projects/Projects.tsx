@@ -14,7 +14,7 @@ export const Projects = React.memo(() => {
     <section className="project_section" id="project">
       <SectionAnimation variant={projectsVariant}>
         <div className="projects__section__name">PORTFOLIO</div>
-        <div className="projects__section__surname">PROJECTS</div>
+        <div className="projects__section__surname">SOME OF THE PROJECTS</div>
         <div className="project__section__my__project">
           {projectsInformation.map((data, i) => {
             return (
