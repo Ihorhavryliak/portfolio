@@ -16,7 +16,7 @@ import { SiNextdotjs } from "react-icons/si";
 export const skills = [
   {
     name: "React",
-    description: ` Used React library for developing UI of SPA. Experienced in creating
+    description: `Used React library for developing UI of SPA. Experienced in creating
   functional components with Hooks as well as class components. Used
   HOC to reuse component logic and optimize performance with
   React.memo.`,
@@ -25,7 +25,7 @@ export const skills = [
 
   {
     name: "Redux",
-    description: `    Implemented Redux for state management of the app as BLL. Created
+    description: `Implemented Redux for state management of the app as BLL. Created
   reducers for immutable state modification, and used Thunk middleware
   for asynchronous network requests.`,
     icon: <SiRedux className="block__icon" />,
@@ -100,8 +100,8 @@ export const skills = [
     icon: <BsClipboardCheck className="block__icon" />,
   },
   {
-    name: "Taiwing",
-    description: `Taiwing`,
+    name: "Tailwind",
+    description: `tailwind`,
     icon: <BsCloudUpload className="block__icon" />,
   },
 ];
