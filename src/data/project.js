@@ -10,15 +10,15 @@ import twoImg from "../assets/images/Screenshot_20.png";
 import treeImg from "../assets/images/21.png";
 import documentation from "../assets/images/Screenshot_2.png";
 import shop from "../assets/images/Screenshot_2shop.png";
-
+import osn from "../assets/images/Screenshot_21.png";
 
 export const projectsInformation = [
   {
-    name : 'Dowok',
-    description: `React, Redux, TypeScript, JavaScript, REST API, Thunk, CSS, HTML5,
-    GitHub, Socket.io, JWT, React transition group.`,
-    href: `https://dowork.com.ua/`,
-    img: treeImg
+    name : 'Osnova',
+    description: ` React, Redux, TypeScript, JavaScript, GitLab, Socket.io,
+    Postman, Jest, MUI, Node.js, Express.js, MariaDB .`,
+    href: `https://osnova.cloud/`,
+    img: osn
   },
   {
     name : 'ShopStore',
@@ -76,5 +76,12 @@ export const projectsInformation = [
   GitHub / Node.js, PostgreSQL, Nest.js, Swagger`,
   href: `https://internship-z3os.onrender.com/api/docs/#/`,
   img: twoImg
+},
+{
+  name : 'Dowok',
+  description: `React, Redux, TypeScript, JavaScript, REST API, Thunk, CSS, HTML5,
+  GitHub, Socket.io, JWT, React transition group.`,
+  href: `https://dowork.com.ua/`,
+  img: treeImg
 },
 ]
