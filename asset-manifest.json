@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.032d09fc.css",
-    "main.js": "/portfolio/static/js/main.534c0b1f.js",
+    "main.js": "/portfolio/static/js/main.13f8a4e8.js",
     "static/media/Screenshot_2shop.png": "/portfolio/static/media/Screenshot_2shop.7f77d129712eb7903423.png",
     "static/media/Screenshot_18.png": "/portfolio/static/media/Screenshot_18.b0d101db9c550aaf400d.png",
     "static/media/Screenshot_14.png": "/portfolio/static/media/Screenshot_14.cbaf9860b3a6acfa2265.png",
@@ -10,17 +10,17 @@
     "static/media/Screenshot_19.png": "/portfolio/static/media/Screenshot_19.2fe930b38f995a34ece1.png",
     "static/media/Screenshot_21.png": "/portfolio/static/media/Screenshot_21.a42709e261033171cd89.png",
     "static/media/Screenshot_10.png": "/portfolio/static/media/Screenshot_10.ec4053c0597cbc3bf7ba.png",
-    "static/media/CV_Ihor_Havryliak.pdf": "/portfolio/static/media/CV_Ihor_Havryliak.707303ca1f8d09dd25b6.pdf",
+    "static/media/CV_Ihor_Havryliak.pdf": "/portfolio/static/media/CV_Ihor_Havryliak.2259710ec6084a08d738.pdf",
     "static/media/Screenshot_2.png": "/portfolio/static/media/Screenshot_2.feb48fc5a2c79ae3c79c.png",
     "static/media/i.jpg": "/portfolio/static/media/i.6a423f5db811e1bc7a49.jpg",
     "static/media/Screenshot_11.png": "/portfolio/static/media/Screenshot_11.4ae6b8c0605c87d79a26.png",
     "static/media/Screenshot_20.png": "/portfolio/static/media/Screenshot_20.ae98a8cb85e2186f6801.png",
     "index.html": "/portfolio/index.html",
     "main.032d09fc.css.map": "/portfolio/static/css/main.032d09fc.css.map",
-    "main.534c0b1f.js.map": "/portfolio/static/js/main.534c0b1f.js.map"
+    "main.13f8a4e8.js.map": "/portfolio/static/js/main.13f8a4e8.js.map"
   },
   "entrypoints": [
     "static/css/main.032d09fc.css",
-    "static/js/main.534c0b1f.js"
+    "static/js/main.13f8a4e8.js"
   ]
 }
